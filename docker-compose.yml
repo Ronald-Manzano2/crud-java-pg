@@ -19,3 +19,5 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=postgres
+    volumes:
+      - C:\Users\AMD\OneDrive\Documentos\Dockerfiles\pg_data:/var/lib/postgresql/data
